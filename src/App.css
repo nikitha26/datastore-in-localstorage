@@ -8,7 +8,7 @@
 
 body {
   position: relative;
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(37, 105, 161);
 }
 h1 {
   text-align: center;
@@ -32,7 +32,7 @@ form {
   right: 30%;
   left: 30%;
   border-radius: 8px;
-  color:rgb(184, 29, 29);
+  color: rgb(37, 105, 161);
 }
 
 .form-group {

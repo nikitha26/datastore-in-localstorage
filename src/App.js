@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import {Container} from "reactstrap"
+import {Container,Row} from "reactstrap"
 import './App.css';
 
 import Todo from "./Components/Todo";
@@ -30,10 +30,12 @@ const App = () =>{
     }
 
   return(
-    <Container fluid>
+    <Container>
+      
         <h1>Data Storing In Local Storage</h1>
         <Todo todos={todos} markComplete={markComplete}/>
         <TodoForm addTodos={addTodos}/>
+     
     </Container>  
   )
 }

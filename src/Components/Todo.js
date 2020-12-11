@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import {ListGroup,ListGroupItem} from "reactstrap";
-//import {FaCheckDouble} from "react-icons/fa";
+import {FaCheckDouble} from "react-icons/fa";
 
 const Todo = ({todos , markComplete}) =>{
 
@@ -10,8 +10,8 @@ const Todo = ({todos , markComplete}) =>{
                 <ListGroupItem key={todo.id}> 
                     {todo.todoString}            
                    <span className="float-right"
-                   onClick={() => markComplete(todo.id)}> 
-                   {/* <FaCheckDouble/> */}
+                        onClick={() => markComplete(todo.id)}> 
+                        <FaCheckDouble/>
                    </span>
                 </ListGroupItem>
             ))}
