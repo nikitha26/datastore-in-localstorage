@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/datastore-in-localstorage/static/css/main.301efbf5.chunk.css",
+    "main.js": "/datastore-in-localstorage/static/js/main.b383df85.chunk.js",
+    "main.js.map": "/datastore-in-localstorage/static/js/main.b383df85.chunk.js.map",
+    "runtime-main.js": "/datastore-in-localstorage/static/js/runtime-main.d663c051.js",
+    "runtime-main.js.map": "/datastore-in-localstorage/static/js/runtime-main.d663c051.js.map",
+    "static/js/2.635937ff.chunk.js": "/datastore-in-localstorage/static/js/2.635937ff.chunk.js",
+    "static/js/2.635937ff.chunk.js.map": "/datastore-in-localstorage/static/js/2.635937ff.chunk.js.map",
+    "static/js/3.08bd862b.chunk.js": "/datastore-in-localstorage/static/js/3.08bd862b.chunk.js",
+    "static/js/3.08bd862b.chunk.js.map": "/datastore-in-localstorage/static/js/3.08bd862b.chunk.js.map",
+    "index.html": "/datastore-in-localstorage/index.html",
+    "static/css/main.301efbf5.chunk.css.map": "/datastore-in-localstorage/static/css/main.301efbf5.chunk.css.map",
+    "static/js/2.635937ff.chunk.js.LICENSE.txt": "/datastore-in-localstorage/static/js/2.635937ff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d663c051.js",
+    "static/js/2.635937ff.chunk.js",
+    "static/css/main.301efbf5.chunk.css",
+    "static/js/main.b383df85.chunk.js"
+  ]
+}
