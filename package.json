@@ -1,6 +1,6 @@
 {
-  "homepage": "http://nikitha26.github.io/datastore-in-localstorage",
-  "name": "datastore-in-localstorage",
+  "homepage": "http://nikitha26.github.io/todoapp",
+  "name": "todoapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
