@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import {Container,Row} from "reactstrap"
+import {Container,Input,Row} from "reactstrap"
 import './App.css';
 
 import Todo from "./Components/Todo";
@@ -28,11 +28,20 @@ const App = () =>{
     const markComplete = id =>{
       setTodos(todos.filter(todo => todo.id !==id))
     }
-
+    const edittodo = (id) =>{
+       setTodos(todos.filter(todo => todo.id=id))
+      return(
+        <Input type="text"
+        id="todo"
+        name="todo"
+        placeholder="Edit todo"/>
+      )
+    }
+   
   return(
     <Container>
       
-        <h1>Data Storing In Local Storage</h1>
+        <h1>TODO APP (React.js)</h1>
         <Todo todos={todos} markComplete={markComplete}/>
         <TodoForm addTodos={addTodos}/>
      

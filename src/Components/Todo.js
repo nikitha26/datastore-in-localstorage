@@ -1,14 +1,17 @@
 import React, { useContext } from "react";
-import {ListGroup,ListGroupItem} from "reactstrap";
-import {FaCheckDouble} from "react-icons/fa";
+import {Input, ListGroup,ListGroupItem} from "reactstrap";
+import {FaCheckDouble,FaPen} from "react-icons/fa";
 
-const Todo = ({todos , markComplete}) =>{
-
+const Todo = ({todos,markComplete}) =>{
+  
     return(
         <ListGroup className="mt-5 mb-2 items">
             {todos.map(todo =>(
                 <ListGroupItem key={todo.id}> 
-                    {todo.todoString}            
+                    <input type="text" id={todo.id}
+                    value={todo.todoString}
+                    />
+                           
                    <span className="float-right"
                         onClick={() => markComplete(todo.id)}> 
                         <FaCheckDouble/>

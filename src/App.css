@@ -46,3 +46,6 @@ form {
 #todo{
   color:red;
 }
+input{
+  border: 0;
+}
